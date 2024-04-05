@@ -1,0 +1,261 @@
+/* all pages */
+html {
+margin: 0;
+padding: 0;
+}
+
+body {background-color: #ffffff;
+font-family: "trebuchet ms", verdana, helvetica, sans-serif;
+margin: 0 20% 0 20%;
+padding:0;
+}
+
+h2 {color: #456fa1;
+font-size: 24px;}
+
+a {color: #7094ce} 
+a:visited {color: #2d3854}
+a:hover {color: #f41412}
+
+a.anchor {
+color: #000000;
+}
+
+p, li {
+font-size: 16px;
+line-height: 1.6em;}
+
+p.filler {
+color: #ddd9aa;
+}
+
+/* main page */
+
+#contactinfo { 
+float: left;
+padding-top: 30px;
+padding-left: 10%;
+text-align: center;
+}
+
+#bigmenu {
+float: right;
+padding-top: 30px;
+padding-right: 10%;
+font-size: 26px;
+line-height: 1.2em;
+text-align: center;
+text-decoration: none;
+}
+
+p.mainmenu {
+font-size: 26px;
+line-height: 1.2em;
+text-align: center;
+text-decoration: none;
+}
+
+a.mainmenulink {text-decoration: none}
+
+#bio {
+clear: both;
+}
+
+/* subpages */
+
+h3 {
+font-size: 18px;
+font-weight: bold;
+line-height: 1.4em;}
+
+h4 {
+font-size: 16px;
+line-height: 1.6em;
+font-weight: normal;}
+
+.term {
+font-weight: bold;}
+
+.myname {
+font-weight: bold;}
+
+.journalname {
+font-style: italic;}
+
+p.collab {
+font-style: italic;}
+
+div.researchreflist {
+margin-left: 0.5in;
+}
+
+li.reference {
+text-indent: -0.5in;
+list-style-type: none;
+padding-bottom: 1em;
+}
+
+/* menu bar */
+
+#menuheader {
+color: #ffffff;
+text-align: center;
+letter-spacing: 10px;
+background: #456fa1; /* was 362422*/
+font-weight: bold;
+}
+
+#menubar {
+color: #ffffff;
+text-align: center;
+letter-spacing: 4px;
+font-weight: bold;
+background-color: #4787ab; /* was ba6432 */
+}
+
+a.menubarlink {text-decoration: none;
+color: #ffffff}
+
+a:visited.menubarlink {text-decoration: none;
+color: #ffffff}
+
+a:hover.menubarlink {text-decoration: none;
+color: #f41412}
+
+
+/* vita */
+
+.vitalabel {
+float: left;
+clear: both;
+}
+
+.vitaresult {
+padding-left: 20%;
+text-indent: 0.0in;
+}
+
+p.vitasectionheader {
+clear: both;
+width: 100%;
+padding-bottom: 0;
+margin-top: 2em;
+margin-bottom: 0;
+color: 456fa1;
+}
+
+hr {
+ padding-top: 0;
+ margin-top: 0;
+ color: 456fa1;
+ background-color: 456fa1;
+ height: 3px;
+}
+
+p.vitabody {
+margin-left: 20%;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+ul.vita {
+padding-left: 25%;
+margin-top: 0;
+padding-top: 0;
+padding-bottom: 0.75em;
+}
+
+li.vita {
+list-style-type: square;
+margin-top: 0;
+padding-top: 0;
+}
+
+div.vitareflist {
+margin-left: 10%;
+margin-top: 0;
+padding-top: 0;
+padding-bottom: 0;
+}
+
+table {
+margin-left: 5%;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+td {
+vertical-align: top;
+padding-bottom: 0.75em;
+}
+
+td.leftcol {
+  width: 15%;
+}
+
+td.rightcol {
+  width: 85%;
+  padding-left: 80px;
+  text-indent: -0.5in;
+}
+
+td.awardname {
+padding-left: 50px;
+}
+
+td.datecol {
+width: 20%;
+}
+
+.sidenote {
+font-style: italic;
+}
+
+p.vitalink {
+font-style: italic;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+letter-spacing: 6px;
+font-weight: normal;
+}
+
+p.contactinfo{
+padding-top: 0;
+margin-top: 0;
+margin-left: 25%;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+/* matlab */
+
+.functionname {
+font-family: 'courier', 'courier new', monospace;
+}
+
+.toolboxfunction {
+font-family: 'courier', 'courier new', monospace;
+font-size: 14px;
+word-break: break-all;
+}
+
+table.toolbox {
+width: 100%;
+margin-left: 3%;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+td.toolbox {
+vertical-align: top;
+padding-bottom: 0.15em;
+}
+
+td.toolboxfunction {
+width:35%;
+vertical-align: top;
+padding-bottom: 0.15em;
+}
